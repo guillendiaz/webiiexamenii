@@ -4,7 +4,7 @@
     --f7-navbar-bg-color: #007042; /*navbar*/
     --f7-navbar-text-color:#fff;
     --f7-bars-bg-color:#fff;/*toolbar*/
-	--color-verde:#007042;
+	--color-verde:#813772;
 	--color-gris: #8f8f8f;
 	--color-negro: #000;
 	--fondo-gris:#eaebeb;
@@ -33,8 +33,35 @@ body{
 	border-radius: 100%;
 }
 
-.card-intro{
-	background-image: url("../img/gift-back-school.jpg");
+.tab001{
+	background-image: url("../img/001.jpg");
+	background-size: cover;
+  	background-position: center;
+	color: #fff;
+	box-shadow: none;
+	border-radius: 10px;
+}
+
+.tab002{
+	background-image: url("../img/002.jpg");
+	background-size: cover;
+  	background-position: center;
+	color: #fff;
+	box-shadow: none;
+	border-radius: 10px;
+}
+
+.tab003{
+	background-image: url("../img/003.jpg");
+	background-size: cover;
+  	background-position: center;
+	color: #fff;
+	box-shadow: none;
+	border-radius: 10px;
+}
+
+.tab004{
+	background-image: url("../img/004.jpg");
 	background-size: cover;
   	background-position: center;
 	color: #fff;
