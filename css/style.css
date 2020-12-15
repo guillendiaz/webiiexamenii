@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+:root{
+    --f7-theme-color:#007042;
+    --f7-navbar-bg-color: #007042; /*navbar*/
+    --f7-navbar-text-color:#fff;
+    --f7-bars-bg-color:#fff;/*toolbar*/
+	--color-verde:#007042;
+	--color-gris: #8f8f8f;
+	--color-negro: #000;
+	--fondo-gris:#eaebeb;
+	--fondo-menu:#fafafa;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.navbar a{
+	color: #fff;
+}
+
+.account{
+	text-align: center;
+}
+
+.button_account{
+	margin: 10% 0; 
+}
+
+.image_account{
+	margin-top: 40%;
+	width: 100px;
+	height:100px;
+	border-radius: 100%;
+}
+
+.card-intro{
+	background-image: url("../img/gift-back-school.jpg");
+	background-size: cover;
+  	background-position: center;
+	color: #fff;
+	box-shadow: none;
+	border-radius: 10px;
+}
+
+.card-line{
+	color: #fff;
+	margin-top: 20%;
+}
+
+.card-intro .precio{
+	color: #fff;
+	background-color: var(--color-negro);
+	padding: 10px;
+	border-radius: 5px;
+	margin-left: 40%;
+}
+
+.precioinfo{
+	color: #fff;
+	background-color: var(--color-negro);
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.favorite{
+	color: #fff;
+	margin-left: 90%;
+}
+
+.tittle{
+	color: var(--color-negro);
+	font-size: 15px;
+	font-weight: 700;
+}
+
+.subtittle{
+	font-size: 10px;
+	font-weight: 400;
+}
+
+.list-menu h1,h2,h3,h4,h5,h6{
+	color: var(--color-negro);
+	margin-bottom: 5px;
+	margin-top: 2px;
+}
+.list-menu p{
+	margin: 5px 0;
+}
+
+.toolbar-bottom a,
+.toolbar-bottom i{
+	color: var(--color-verde);	
+}
+
+.panel-top{
+	background-color: var(--color-verde);
+	padding: 17px;
+	color: #fff;
+	text-align: center;
+}
+
+.panel-left{
+	background-color: var(--fondo-menu);
+}
+.list-menu{
+	margin-top: 0;
+}
+.list-menu ul{
+	background-color: var(--fondo-menu);
+}
+.list-menu i{
+	color: var(--color-verde);
+}
+
+.list-productos .item-media img{
+	width: 80px;
+}
+.list-productos .item-title{
+	color: var(--color-negro);
+	font-size: 20px;
+	font-weight: 400;
+}
+.list-productos .item-subtitle{
+	color: var(--color-negro);
+	font-size: 13px;
+	font-weight: 300;
+}
+.list-productos .item-after{
+	color: var(--color-negro);
+	font-size: 16px;
+	font-weight: 400;
+}
+.list-productos li{
+	box-shadow: 0px 0px 10px 5px #f2f2f2;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+
+
+
