@@ -74,6 +74,11 @@ body{
 	margin-top: 20%;
 }
 
+.img_info{
+	width: 100px;
+	height: 100px;
+}
+
 .card-intro .precio{
 	color: #fff;
 	background-color: var(--color-negro);
@@ -83,8 +88,9 @@ body{
 }
 
 .precioinfo{
+	padding: 0 500px;
 	color: #fff;
-	background-color: var(--color-negro);
+	background-color: var(--color-verde);
 	padding: 10px;
 	border-radius: 5px;
 }
